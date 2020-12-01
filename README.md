@@ -25,11 +25,10 @@ or
 npm start
 ``
 <hr>
-<br>
 
-## Warning
+## Warning :warning:
 
-:warning: To use the password recovery service by email, it is necessary to put the credentials in the `example.env` file first, it is recommended to use the service <https://mailtrap.io>, if you want to use another service, change the port in `src/config/nodemailer.ts` and configure the example.env file with your credentials.
+To use the password recovery service by email, it is necessary to put the credentials in the `example.env` file first, it is recommended to use the service <https://mailtrap.io>, if you want to use another service, change the port in `src/config/nodemailer.ts` and configure the example.env file with your credentials.
 
 ## Using directions
 
